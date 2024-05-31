@@ -6,7 +6,10 @@ https://templatemo.com/tm-583-festava-live
 
 */
 
-
+@font-face {
+  font-family: 'Faster';
+  src: url('../fonts/Faster-Stroker.otf');
+}
 /*---------------------------------------
   CUSTOM PROPERTIES ( VARIABLES )             
 -----------------------------------------*/
