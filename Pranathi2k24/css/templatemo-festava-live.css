@@ -641,10 +641,6 @@ strong {
   margin: 1.5rem 0;
 }
 
-.Hide {
-  display: none;
-  margin-top: 0px;
-}
 
 
 /*---------------------------------------
@@ -917,7 +913,7 @@ strong {
 
 
 .container1 {
-  margin-top: 100px;
+  margin-top: 200px;
   margin-left: 160px;
   max-width: 1200px;
   width: 80%;
@@ -987,6 +983,7 @@ strong {
   width: 92%;
   display: flex;
   align-items: center;
+  
 }
 
 .slider-scrollbar .scrollbar-track {
@@ -1034,34 +1031,43 @@ strong {
 /* Styles for mobile and tablets */
 @media only screen and (max-width: 1023px) {
   .slider-wrapper .slide-button {
-    display: none !important;
+    display: block !important;
   }
 
+
+  .container1 .slider-scrollbar{
+    display: none;
+  }
   .container1 {
 
     margin-top: 10px;
-    display: none;
-    margin-left: 16px;
+    
+    margin-left: 42px;
+    margin-right:0px;
     max-width: 1200px;
-    width: 95%;
+    width: 80%;
   }
   
 
   .slider-wrapper .image-list {
     gap: 10px;
-    margin-bottom: 15px;
+    margin-bottom: 0px;
     scroll-snap-type: x mandatory;
   }
 
   .slider-wrapper .image-list .image-item {
-    width: 280px;
-    height: 380px;
+    width: 200px;
+    height: 250px;
   }
 
   .slider-scrollbar .scrollbar-thumb {
     width: 20%;
+    display: none;
   }
+
+ 
 }
+
 
 
 
@@ -1194,4 +1200,6 @@ strong {
     font-size: 20px;
   }
 }
+
+
 
