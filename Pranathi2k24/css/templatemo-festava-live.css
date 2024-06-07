@@ -641,6 +641,11 @@ strong {
   margin: 1.5rem 0;
 }
 
+.Hide {
+  display: none;
+  margin-top: 0px;
+}
+
 
 /*---------------------------------------
   SCHEDULE              
@@ -912,10 +917,10 @@ strong {
 
 
 .container1 {
-  margin-top: 150px;
+  margin-top: 100px;
   margin-left: 160px;
   max-width: 1200px;
-  width: 95%;
+  width: 80%;
 }
 
 
@@ -958,10 +963,10 @@ strong {
 .slider-wrapper .image-list {
   display: grid;
   grid-template-columns: repeat(10, 1fr);
-  gap: 18px;
+  gap: 12px;
   font-size: 0;
   list-style: none;
-  margin-bottom: 30px;
+  margin-bottom: 20px;
   overflow-x: auto;
   scrollbar-width: none;
 }
@@ -971,9 +976,9 @@ strong {
 }
 
 .slider-wrapper .image-list .image-item {
-  width: 325px;
-  height: 300px;
-  object-fit: cover;
+  width: 200px;
+  height: 200px;
+  object-fit:contain;
 }
 
 .container1 .slider-scrollbar {
@@ -1031,6 +1036,16 @@ strong {
   .slider-wrapper .slide-button {
     display: none !important;
   }
+
+  .container1 {
+
+    margin-top: 10px;
+    display: none;
+    margin-left: 16px;
+    max-width: 1200px;
+    width: 95%;
+  }
+  
 
   .slider-wrapper .image-list {
     gap: 10px;
